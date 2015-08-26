@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle-webservice-clients xmlns:ns2="http://java.sun.com/xml/ns/javaee">
+   <webservice-client>
+      <service-qname namespaceURI="http://xmlns.oracle.com/oxp/service/PublicReportService"
+                     localpart="PublicReportServiceService"/>
+      <port-info>
+         <wsdl-port namespaceURI="http://xmlns.oracle.com/oxp/service/PublicReportService"
+                    localpart="PublicReportService"/>
+         <runtime/>
+         <operations>
+            <operation name="logout"/>
+            <operation name="impersonate"/>
+            <operation name="getReportParameters"/>
+            <operation name="createReport"/>
+            <operation name="deleteReport"/>
+            <operation name="validateLogin"/>
+            <operation name="login"/>
+            <operation name="getSecurityModel"/>
+            <operation name="getBIPHTTPSessionInterval"/>
+            <operation name="runReport"/>
+            <operation name="runReportInSession"/>
+            <operation name="getReportDefinition"/>
+            <operation name="getReportDefinitionInSession"/>
+            <operation name="getReportParametersInSession"/>
+            <operation name="getTemplateParameters"/>
+            <operation name="getTemplateParametersInSession"/>
+            <operation name="getFolderContents"/>
+            <operation name="getFolderContentsInSession"/>
+            <operation name="getDeliveryServiceDefinition"/>
+            <operation name="getDeliveryServiceDefinitionInSession"/>
+            <operation name="deliveryService"/>
+            <operation name="deliveryServiceInSession"/>
+            <operation name="scheduleReport"/>
+            <operation name="scheduleReportInSession"/>
+            <operation name="hasReportAccess"/>
+            <operation name="hasReportAccessInSession"/>
+            <operation name="isReportExist"/>
+            <operation name="isReportExistInSession"/>
+            <operation name="isFolderExist"/>
+            <operation name="isFolderExistInSession"/>
+            <operation name="getScheduledReportStatus"/>
+            <operation name="getScheduledReportStatusInSession"/>
+            <operation name="getListOfScheduledReportsStatus"/>
+            <operation name="getListOfScheduledReportsStatusInSession"/>
+            <operation name="getScheduledReportInfo"/>
+            <operation name="getScheduledReportInfoInSession"/>
+            <operation name="getScheduledReportHistoryInfo"/>
+            <operation name="getScheduledReportHistoryInfoInSession"/>
+            <operation name="suspendScheduledReport"/>
+            <operation name="suspendScheduledReportInSession"/>
+            <operation name="resumeScheduledReport"/>
+            <operation name="resumeScheduledReportInSession"/>
+            <operation name="deleteScheduledReport"/>
+            <operation name="deleteScheduledReportInSession"/>
+            <operation name="deleteScheduledReportHistory"/>
+            <operation name="deleteScheduledReportHistoryInSession"/>
+            <operation name="createReportInSession"/>
+            <operation name="updateReportDefinition"/>
+            <operation name="updateReportDefinitionInSession"/>
+            <operation name="createReportFolder"/>
+            <operation name="createReportFolderInSession"/>
+            <operation name="uploadTemplateForReport"/>
+            <operation name="uploadTemplateForReportInSession"/>
+            <operation name="removeTemplateForReport"/>
+            <operation name="removeTemplateForReportInSession"/>
+            <operation name="uploadReportDataChunk"/>
+            <operation name="downloadReportDataChunk"/>
+            <operation name="uploadReport"/>
+            <operation name="uploadReportInSession"/>
+            <operation name="deleteReportInSession"/>
+            <operation name="deleteFolder"/>
+            <operation name="deleteFolderInSession"/>
+            <operation name="getTemplate"/>
+            <operation name="getReportSampleData"/>
+            <operation name="getReportSampleDataInSession"/>
+            <operation name="getXDOSchema"/>
+            <operation name="getXDOSchemaInSession"/>
+            <operation name="getTemplateInSession"/>
+            <operation name="createReportWithDataModel"/>
+            <operation name="createReportWithDataModelInSession"/>
+            <operation name="updateTemplateForReport"/>
+            <operation name="updateTemplateForReportInSession"/>
+            <operation name="uploadXLIFFForReport"/>
+            <operation name="updateXLIFFForReportInSession"/>
+            <operation name="updateXLIFFForReport"/>
+            <operation name="uploadXLIFFForReportInSession"/>
+            <operation name="uploadReportObject"/>
+            <operation name="uploadReportObjectInSession"/>
+            <operation name="downloadReportObject"/>
+            <operation name="downloadReportObjectInSession"/>
+            <operation name="getObjectSecurityXML"/>
+         </operations>
+      </port-info>
+   </webservice-client>
+</oracle-webservice-clients>
